@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.surajhuljute.bloodbud">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ForgotActivity" />
+
+        <activity android:name=".SearchResultActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DemoActivity" >
+
+        </activity>
+
+        <activity android:name=".UserProfileActivity"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionBar" />
+
+
+        <activity
+            android:name=".HomeActivity"
+            android:icon="@drawable/bloodbud_logo"
+            android:label="Home" />
+
+        <activity
+            android:name=".ActivityLogin"
+            android:noHistory="true"
+            android:theme="@style/NoActionBar"
+            />
+
+        <activity
+            android:name=".VerificationActivity"
+            android:noHistory="true"
+            android:theme="@style/NoActionBar"></activity>
+        <activity android:name=".EditProfile">
+
+        </activity>
+
+    </application>
+
+</manifest>

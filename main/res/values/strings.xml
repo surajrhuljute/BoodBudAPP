@@ -1,0 +1,46 @@
+<resources>
+
+
+
+    <string name="Details">Details</string>
+
+        <string name="app_name">BloodBud</string>
+        <string name="string_enter_name">Enter your name</string>
+        <string name="string_choose_username">Choose your username</string>
+        <string name="string_choose_password">Choose your password</string>
+        <string name="string_enter_email">Enter your email</string>
+        <string name="button_register">Register</string>
+
+        <string name="string_already_registered">Already Register ?</string>
+        <string name="button_login">Login</string>
+
+        <string name="string_username">Username</string>
+        <string name="textview_password">Password</string>
+        <string name="string_user_login">Login</string>
+
+        <string-array name="blood_group_arrays">
+            <item>A</item>
+            <item>B</item>
+            <item>B+</item>
+            <item>O</item>
+        </string-array>
+        <string-array name="month_arrays">
+            <item>Jan</item>
+            <item>Feb</item>
+            <item>March</item>
+            <item>April</item>
+            <item>May</item>
+            <item>June</item>
+            <item>July</item>
+            <item>Aug</item>
+            <item>Sept</item>
+            <item>Oct</item>
+            <item>Nov</item>
+            <item>Dec</item>
+        </string-array>
+        <string name="font_awesome_plus">&#xf067;</string>
+        <string name="font_awesome_area_chart_icon">&#xf1fe;</string>
+        <string name="font_awesome_cubes_icon">&#xf1b3;</string>
+        <string name="font_awesome_mobile_phone_icon">&#xf10b;</string>
+
+</resources>
